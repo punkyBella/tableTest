@@ -1,0 +1,27 @@
+.bio{
+    color:red;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+
+}
+li:hover{
+    text-decoration: underline;
+}
+ul,div{
+    width: 200px;
+}
+.color{
+    font-weight: bold;
+    color: blue;
+}
+.color:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="mymodule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>employee list</title>
+    <script src="angular.js"></script>
+    <script src="employeelist.js"> </script>
+    <link rel="stylesheet" href="employee.css"/>
+
+</head>
+<body  ng-controller="myCtrl">
+<ul class="lf" >
+    <li class="color">
+        NAME
+    </li>
+    <li ng-repeat="employee in list" >
+        <p ng-click="bio()" >{{employee.ename}}</p>
+    </li>
+</ul>
+<ul class="lf" >
+    <li class="color">BIO CONTENT</li>
+    <li ng-click="bioalert()">{{bioList}}</li>
+</ul>
+
+</body>
+</html>
